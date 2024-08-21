@@ -1,0 +1,104 @@
+.oil_gas_div {
+    background-color: #FFFFFF;
+
+}
+
+.sect1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 70px 50px;
+}
+
+.jet {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 50px;
+}
+.sect3 h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
+    color: #002F69;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.sect3 p {
+    font-family: "Lato", sans-serif;
+        font-size: 20px;
+        color: #002F69;
+        max-width: 1170px;
+        line-height: 31px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+}
+
+.sect3 {
+ display: flex;
+ padding-left: 70px;
+ padding-right: 70px;
+
+}
+.buttondiv {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+button {
+    background-color: #0087FF;
+    border: none;
+    color: #EEEEF0;
+    width: 202.4px;
+    height: 57px;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+@media only screen and (max-width: 1300px) {
+
+    .sect1 {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 70px;
+        }
+
+
+    .jet { margin-left: 0;}
+    .sect1 .imagedec1div {
+        display: none;
+        
+    }
+
+    }
+
+         @media only screen and (max-width: 450px) {
+             .oil_gas_div .imagedec2div img {
+                 width: 300px;
+                 height: auto;
+             }
+    
+             .oil_gas_div .image2dec {
+                 height: 250px;
+                 width: 50px;
+    
+             }
+    
+             .oil_gas_div .contentdiv p, .oil_gas_div p {
+                 font-size: 12px;
+                 margin-top: 10px;
+                 margin-bottom: 10px;
+                 line-height: 30px;
+             }
+    
+             .oil_gas_div h3,.oil_gas_div .contentdiv h3 {
+                 font-size: 15px;
+             }
+
+                        #root>div>div.sect1.sect2>div.jet>div.imagedec2div>div {
+                            right: 10px;
+                        }
+         }

@@ -1,0 +1,21 @@
+.imagedec1div {
+    width: 600px;
+    
+}
+
+.imagedec1div img {
+    width: 600px;
+    height: 625px;
+}
+
+.image1decdiv {
+    height: 35px;
+}
+
+.firstdec {
+    background-color: #EEEEF0;
+}
+
+.secdec {
+    background-color: #0087FF;
+}

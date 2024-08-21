@@ -1,0 +1,91 @@
+.itpage i {
+    position: relative;
+    left: 250px;
+}
+
+.gridDiv {
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 50px;
+}
+
+.gridDiv p, .gridDiv h3 {
+    max-width: 700px;
+}
+
+.buttondiv {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+button {
+    background-color: #0087FF;
+    border: none;
+    color: #EEEEF0;
+    width: 202.4px;
+    height: 57px;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+@media only screen and (max-width: 1200px) { 
+    .itpage i { 
+        position: relative;
+        left: 150px
+
+    }
+    .imagebg {
+        background-color: #002F69;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+
+    .image1decdiv  {
+        display: none;
+    }
+        .gridDiv {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px 0 20px;
+        }
+.image2 {
+    display: none;
+}
+.gridDiv p,.gridDiv h3 {
+    max-width: 1000px;
+}
+}
+
+@media only screen and (max-width: 800px) {
+    .imagebg {
+        background-color: white;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .itpage img {
+        width: 300px;
+        height: auto;
+    }
+
+        .itpage p {
+            font-size: 12px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            line-height: 30px;
+        }
+        .itpage h3 {
+            font-size: 15px;
+        }
+
+}

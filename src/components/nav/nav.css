@@ -1,0 +1,100 @@
+.Nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #007BFC;
+    background-color: #DAE1E7;
+    padding: 8px 72.5px;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.Nav img {
+    width: 20%;
+    max-width: 300px;
+    height: auto;
+    margin-right: 30px;
+
+}
+
+.Nav a {
+    size: 30px;
+    text-decoration: none;
+    color: #336799;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.navItemsDiv {
+    justify-self: end;
+    gap: 29px;
+    display: flex;
+    flex-direction: row;
+    min-width: max-content;
+
+}
+
+/* Regular navigation icons */
+.Nav i {
+    display: none;
+    color: #336799;
+    /* styles for regular navigation icons */
+}
+
+.iconContainer {
+    display: none;
+}
+
+.notCollapsed {
+    display: none;
+}
+
+/* Media query for phone screen sizes */
+ 
+@media only screen and (max-width: 600px) {
+    /* Hide regular navigation icons */
+    .navItemsDiv {
+        display: none;
+    }
+
+    /* Show symbols for navigation */
+    .Nav i {
+        order: 2;
+        display: inline-block;
+        /* styles for symbol navigation */
+    }
+
+    .Nav {
+        padding: 8px 36px;
+    }
+
+    .iconContainer {
+        display: flex;
+    }
+
+    .notCollapsed {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+/* slide animation */
+.slide {
+    /* Example background color */
+    overflow: hidden;
+    /* Hide overflow content */
+    transition: height 0.5s ease;
+    /* Transition property for height */
+    height: 0;
+}
+
+.slideShow {
+    height: 100px;
+}
+

@@ -1,0 +1,115 @@
+.constructionDiv  {
+    display: grid;
+    grid-template: 350px 400px / 700px 600px;
+    padding-left: 100px;
+    padding-bottom: 70px;
+
+}
+
+
+.imagedec1div {
+    grid-row: span 2;
+}
+
+.constructionDiv3 {
+    display: flex;
+}
+.constructionDiv3 {
+    padding-left: 100px;
+}
+
+.constructionDiv3 hr, .constructionDiv hr {
+    height: 5px;
+
+}
+
+.imgaltttdgn .image2dec {
+    position: relative;
+    right: 0;
+    left: 30px;
+    order: 0;
+
+}
+
+.imgaltttdgn .imagedec2div {
+    gap: 0;
+}
+
+.imgaltttdgn img {
+    order: 1;
+}
+
+@media only screen and (max-width: 1400px) {
+    .constructionDiv,.constructionDiv3 {
+        padding-left: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 1350px) {
+    .constructionDiv,.constructionDiv3 {
+            padding-left: 20px
+    }
+ }
+
+
+ @media only screen and (max-width: 1300px) {
+
+    .constructionDiv,.constructionDiv3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .constructionDiv .imagedec1div, .constructionDiv3 .imagedec1div {
+        display: none;
+
+    }
+
+    .constructionDiv p,.constructionDiv3 p {
+        max-width: 900px;
+
+    }
+
+
+ }
+
+@media only screen and (max-width: 1200px) {
+    .construction .sticker_div h1 {
+        margin-left: 50px;
+    }
+}
+
+ @media only screen and (max-width: 600px) {
+    #root>div>div.sticker_div>i {
+        display: none;
+    }
+
+        .construction .sticker_div h1 {
+            margin-left: 30px;
+         }
+ }
+
+ @media only screen and (max-width: 450px) {
+    .construction .imagedec2div img {
+        width: 300px;
+        height: auto;
+    }
+        .construction .image2dec {
+        height: 250px;
+        width: 50px;
+        
+    }
+
+    .construction p {
+        font-size: 12px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            line-height: 30px;
+    }
+        .construction h3 {
+            font-size: 15px;
+        }
+ }
+
+ 
